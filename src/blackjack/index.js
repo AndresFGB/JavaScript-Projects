@@ -26,7 +26,6 @@ const divCartasComputadora = document.querySelector('#computadora-cartas');
 const puntosHTML = document.querySelectorAll('small');
 
 
-console.log({tipos},{especiales});
 deck = crearDeck(tipos,especiales);
 
 // Eventos

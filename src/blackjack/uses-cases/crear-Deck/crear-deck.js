@@ -11,7 +11,6 @@ import _ from "underscore";
 // Esta función crea un nuevo deck
 export const crearDeck = (tiposDeCarta, tiposEspeciales) => {
 
-    console.log("aca recibe como el pibe ",{tiposDeCarta},{tiposEspeciales});
     if(!tiposDeCarta || tiposDeCarta.length===0) throw new Error(' Tipos de Carta es obligatorio como un arreglo de string');
     
     if(!tiposEspeciales || tiposEspeciales.length===0) throw new Error(' Tipos especiales es obligatorio como un arreglo de string');
